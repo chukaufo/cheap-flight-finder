@@ -13,11 +13,6 @@ app.use(express.json());
 
 app.use(express.static("Public"));
 
-
-app.get("/", (req, res) => {
-  res.send("Welcome to the Flight Ticket Finder API!");
-});
-
 // Defines the flight search endpoint
 app.get("/flights", async (req, res) => {
   try {
