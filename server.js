@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;  // Use another available port
 app.use(express.json());
 
-app.use(express.static("public"));
+app.use(express.static("Public"));
 
 
 app.get("/", (req, res) => {
