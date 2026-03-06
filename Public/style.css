@@ -34,6 +34,7 @@ form input, form button {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 15px;
 }
 
 form button {
@@ -76,4 +77,58 @@ hr {
 
 .purchase-link:hover {
     background: #0056b3;
+}
+
+/* Make the form layout cleaner */
+form {
+    position: relative;
+}
+
+/* Style the airport autocomplete dropdown */
+.suggestions-box {
+    border: 1px solid #ccc;
+    background: white;
+    max-height: 220px;
+    overflow-y: auto;
+    display: none;
+    margin-top: -6px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Style each suggestion row */
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Remove bottom border from the last suggestion */
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+/* Hover effect for suggestions */
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+/* Make result cards look cleaner */
+.flight-result {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+/* Add spacing to result paragraphs */
+.flight-result p {
+    margin-bottom: 10px;
+}
+
+/* Make subheading a little clearer */
+.flight-result h4 {
+    margin: 12px 0 8px;
+    color: #444;
 }
