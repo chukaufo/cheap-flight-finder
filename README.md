@@ -6,6 +6,7 @@ Cheap Flight Finder is a full-stack web application that allows users to search 
 
 The project demonstrates building a complete web app using **Node.js, Express, and a JavaScript frontend**, while integrating a real third-party aviation API.
 
+Please note: This project uses the Amadeus Sandbox API, meaning flight results are simulated and not guaranteed to reflect real-time airline availability.
 ---
 
 # Features
